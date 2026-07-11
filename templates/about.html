@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Visionary AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/" class="logo" style="text-decoration: none;">Visionary.AI</a>
+    </nav>
+
+    <div class="container">
+        <div class="glass-card">
+            <h1 style="margin-bottom: 2rem;">Technology Stack</h1>
+            <p style="font-size: 1.2rem; line-height: 1.6; margin-bottom: 1.5rem;">
+                This application uses <strong>BLIP (Bootstrapping Language-Image Pre-training)</strong>, a state-of-the-art model for unified vision-language understanding and generation.
+            </p>
+            <ul style="list-style: none; color: var(--text-dim); line-height: 2;">
+                <li>🚀 <strong>Model:</strong> Salesforce/blip-image-captioning-base</li>
+                <li>🧠 <strong>Backend:</strong> Flask (Python 3)</li>
+                <li>🖼️ <strong>Preprocessing:</strong> Hugging Face Transformers & PIL</li>
+                <li>🎨 <strong>Frontend:</strong> Glassmorphism CSS & Vanilla JavaScript</li>
+            </ul>
+            <div style="margin-top: 3rem;">
+                <a href="/" class="btn">Back to Home</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

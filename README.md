@@ -21,37 +21,6 @@ Pillow
 HTML
 CSS
 JavaScript
-📂 Project Structure
-Image-Captioning-AI/
-│
-├── app.py
-├── caption_generator.py
-├── config.py
-├── image_preprocessing.py
-├── model_loader.py
-├── requirements.txt
-├── README.md
-│
-├── models/
-│   ├── encoder.py
-│   └── decoder.py
-│
-├── utils/
-│   ├── helper.py
-│   ├── predict.py
-│   └── preprocessing.py
-│
-├── templates/
-│   ├── index.html
-│   └── about.html
-│
-├── static/
-│   ├── css/
-│   ├── js/
-│   ├── images/
-│   └── uploads/
-│
-└── sample_images/
 ⚙️ Installation
 1. Clone the Repository
 git clone https://github.com/Sampurna-Devasri-Chennuri/Image_Captioning_System.git
